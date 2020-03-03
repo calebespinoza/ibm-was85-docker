@@ -15,3 +15,9 @@ cd CentOS
 ```
 docker build -t docker_hub_repo/image_name:version --build-arg ibmUser=yourUserName --build-arg ibmPass=yourPassword .
 ```
+
+## Documentation
+
+* [IBM Storing Credentials](https://www.ibm.com/support/knowledgecenter/SSDV2W_1.8.4/com.ibm.cic.commandline.doc/topics/t_imcl_store_credentials.html)
+
+* [IBM imcl Command Arguments](https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.4/com.ibm.cic.commandline.doc/topics/r_tools_imcl.html)
