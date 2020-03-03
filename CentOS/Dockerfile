@@ -34,10 +34,3 @@ RUN ./imcl install com.ibm.websphere.DEVELOPERSILAN.v85 -repositories ${wasRepo}
 #Delete Credentials Stored
 RUN rm -f /opt/credential.store
 RUN rm -f /opt/master_password_file.txt
-
-# Documntation
-# Storing Credentials
-# https://www.ibm.com/support/knowledgecenter/SSDV2W_1.8.4/com.ibm.cic.commandline.doc/topics/t_imcl_store_credentials.html
-
-# imcl Command Arguments
-# https://www.ibm.com/support/knowledgecenter/en/SSDV2W_1.8.4/com.ibm.cic.commandline.doc/topics/r_tools_imcl.html
