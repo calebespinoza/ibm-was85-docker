@@ -45,8 +45,3 @@ RUN ./manageprofiles.sh -create -profileName AppSrv01 \
     -profilePath "/opt/IBM/WebSphere/AppServer/profiles/AppSrv01" \
     -templatePath "/opt/IBM/WebSphere/AppServer/profileTemplates/default" \
     -enableAdminSecurity true -adminUserName ${wasProfileUser} -adminPassword ${wasProfilePass}
-
-RUN cat /opt/IBM/WebSphere/AppServer/profiles/AppSrv01/logs/AboutThisProfile.txt
-
-ENTRYPOINT [ "/opt/IBM/WebSphere/AppServer/bin/startServer.sh" ]
-CMD [ "server1" ]
